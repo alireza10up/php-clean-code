@@ -1,6 +1,7 @@
 # php-clean-code
 
 ### General principles
+
 - First Write Your Code Than Refactor It
 - Y.A.G.N.I (You Ain't Gonna Need It)
 - KISS (Keep It Simple, Stupid)
@@ -19,23 +20,24 @@ Martin Fowler
 ### Code Smells
 
 - Rigidity
-  - The design is hard to change
-  - Sign: Huh, it was a lot more complicated than I thought.
+    - The design is hard to change
+    - Sign: Huh, it was a lot more complicated than I thought.
 - Fragility
-  - The design is easy to break
-  - Sign: some modules are constantly on the bug list
+    - The design is easy to break
+    - Sign: some modules are constantly on the bug list
 - Immobility
-  - The design is hard to reuse
+    - The design is hard to reuse
 - Viscosity
-  - Changes are easier to implement by doing the wrong thing (Hack)
-  - Sign: When a change is needed, you are tempted to hack rather than to preserve
-  the original design
+    - Changes are easier to implement by doing the wrong thing (Hack)
+    - Sign: When a change is needed, you are tempted to hack rather than to preserve
+      the original design
 
 ## Clean code rules in action
 
 ### name
 
 Choose descriptive and unambiguous names.
+
 - Make meaningful distinction.
 - Use pronounceable names (modymdhms)
 - Use searchable names.
@@ -46,3 +48,26 @@ Choose descriptive and unambiguous names.
 - method should be a verb
 - Boolean names should answer Yes/No
 - Pick one word per concept
+
+```text
+You Think You Found A Better Name:
+Rename It !
+```
+
+### methods ( function )
+
+- Small
+- Smaller than that
+- Do one thing
+- Less 80 characters
+- Less 7 line
+- Don't use switch .. it violates SRP, OCP (Use Abstract Factory)
+- Don't use else
+- Arguments
+- Don't be afraid to make a name long ... it's better than use short enigmatic
+- Have no side effect
+- Command query separation
+- DRY code (Don't Repeat Yourself)
+- KISS
+- Don't afraid of new line
+- Don't afraid of Exception
