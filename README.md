@@ -71,3 +71,12 @@ Rename It !
 - KISS
 - Don't afraid of new line
 - Don't afraid of Exception
+
+### classes 
+
+- Should be small
+- SRP (Single Responsibility Principle)
+- Cohesion
+- Loose Coupling (Use Dependency Inversion)
+- Less than 300 line
+- Use Your Conventions
