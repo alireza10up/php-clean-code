@@ -80,3 +80,8 @@ Rename It !
 - Loose Coupling (Use Dependency Inversion)
 - Less than 300 line
 - Use Your Conventions
+
+```
+In no way should object states in the program be changed from outside,
+they should be available through getter and setter.
+```
