@@ -85,3 +85,19 @@ Rename It !
 In no way should object states in the program be changed from outside,
 they should be available through getter and setter.
 ```
+
+## SOLID Principles 
+
+in object-oriented computer programming , SOLID is a mnemonic acronym for five design principles intended to make software designs more understandable , flexible , and maintainable .
+
+* Single Responsibility Principle .
+  * A class should have on , only one , reason to change.
+* Open-Close Principle
+  * You should be able to extend a classes behavior, without modifying it.
+* Liskov Substitution Principle
+  * Derived classes must be substitutable for their base classes.
+* Interface Segregation Principle
+  * Make fine-grained interfaces that are client specific.
+* Dependency Inversion Principle 
+  * Depend on abstractions, not on concretions.
+
