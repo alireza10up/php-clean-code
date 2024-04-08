@@ -101,3 +101,15 @@ in object-oriented computer programming , SOLID is a mnemonic acronym for five d
 * Dependency Inversion Principle 
   * Depend on abstractions, not on concretions.
 
+### Single Responsibility Principle (SRP)
+
+A Component(Class, Module, method) should have only one reason to change .
+
+* Cohesion
+  * Cohesion is the degree to which the various parts of a software component are related.
+> Aim for High Cohesion
+
+* Coupling
+  * Coupling is defined as the level of inter dependency between various software components.
+> Aim For Loose Coupling
+
