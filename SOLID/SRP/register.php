@@ -4,8 +4,10 @@ class Register
 {
     public function save(): bool
     {
-        (new Validator())->validate();
+        $params = $_POST;
 
-        return (new User())->storeInDatabase();
+        (new Validator())->validate($params);
+
+        return (new User())->save($params);
     }
 }

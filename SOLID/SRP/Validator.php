@@ -2,9 +2,9 @@
 
 class Validator
 {
-    private function validate(): void
+    private function validate(array $params): void
     {
-        if (!isset($_POST['firstname'], $_POST['lastname'], $_POST['email'], $_POST['password'])) {
+        if (!isset($params['firstname'], $params['lastname'], $params['email'], $params['password'])) {
             throw new Exception('Data is Not Valid');
         }
     }

@@ -2,13 +2,13 @@
 
 class User
 {
-    private function save(): bool
+    private function save(array $params): bool
     {
         $conn = $this->connectToDatabase();
 
         $sql = "INSERT INTO users (firstname , lastname , email, password) VALUES (?,?,?,?)";
 
-        return $conn->prepare($sql)->execute(array_values($_POST));
+        return $conn->prepare($sql)->execute(array_values($params));
     }
 
     private function connectToDatabase()
