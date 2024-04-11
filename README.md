@@ -113,3 +113,11 @@ A Component(Class, Module, method) should have only one reason to change .
   * Coupling is defined as the level of inter dependency between various software components.
 > Aim For Loose Coupling
 
+### Tip in SRP
+ 
+In the first step of the clean code of the SRP discussion, we begin to examine the smallest part , can refer to the function , we need ask if it belongs in this place. Does it only do one thing? If a certain section requires changes, is it okay to apply those changes here?
+
+In the next step, we go to a higher layer, that is, a section like classes.
+Here we check whether the functions that we separated in the previous step are related to this class or not and should be transferred to a separate entity, if there are functions that are not related to this class. We need to transfer functions to another class and increase the so-called Cohesion
+
+In the last step, we reduce the coupling in such a way that we recognize the dependencies between the classes and minimize the coupling of the classes by techniques such as passing variables instead of taking them directly.
