@@ -128,7 +128,7 @@ In the last step, we reduce the coupling in such a way that we recognize the dep
 
 ### Tip in OCP
 
-In principle OCP, we can simulate the plugin system by dynamizing and isolating a main class, and instead of changing the main class by adding a component to the system, we use it only by naming it.
+In principle OCP, we can simulate the plugin system by dynamiting and isolating a main class, and instead of changing the main class by adding a component to the system, we use it only by naming it.
 
 ### Liskov Substitution Principe (LSP)
 
@@ -140,3 +140,5 @@ In principle OCP, we can simulate the plugin system by dynamizing and isolating 
 The sign of violation of the LSP principle is that we define a series of interfaces and the classes that extend them forcefully implement them or leave them empty.
 
 The way is that we come and separate the interfaces, this can be recognized through class concepts.
+
+In this principle, all items including input and output of derived classes should be key
