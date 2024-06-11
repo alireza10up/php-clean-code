@@ -142,3 +142,17 @@ The sign of violation of the LSP principle is that we define a series of interfa
 The way is that we come and separate the interfaces, this can be recognized through class concepts.
 
 In this principle, all items including input and output of derived classes should be key
+
+Basically, liskov focuses on the implementation of subclasses or clients
+
+### Interface Segregation Principle (ISP)
+
+* Make Fine-Grained Interfaces That Are Client Specific
+
+### Tip in ISP
+
+This is how this principle is defined that we should design the interface simple and small from the beginning
+
+Here the focus is on the interface and creating an interface for a particular concept
+
+Basically, liskov focuses on the implementation of subclasses or clients
