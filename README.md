@@ -156,3 +156,16 @@ This is how this principle is defined that we should design the interface simple
 Here the focus is on the interface and creating an interface for a particular concept
 
 Basically, liskov focuses on the implementation of subclasses or clients
+
+
+### Dependency Inversion Principle (DIP)
+
+* Depend On Abstractions, Not On Concretions.
+
+### Tip in DIP
+
+The dip principle says that you should depend on abstractions, not on concrete ones
+
+IOC Container => Inversion Of Control Container
+
+We Never New Class In Program We Should be Use IOC for Control and create Instance in Program 
