@@ -126,6 +126,17 @@ In the last step, we reduce the coupling in such a way that we recognize the dep
 
 * A Component ( Class , Module, Method ) Should Be pen For Extension, But Closed For Modification .
 
-### Tip in SRP
+### Tip in OCP
 
 In principle OCP, we can simulate the plugin system by dynamizing and isolating a main class, and instead of changing the main class by adding a component to the system, we use it only by naming it.
+
+### Liskov Substitution Principe (LSP)
+
+* Derived Classes Must Be Substitutable For Their Base Classes
+* In This Principle, We Design And Couple With Interfaces
+
+### Tip in LSP
+
+The sign of violation of the LSP principle is that we define a series of interfaces and the classes that extend them forcefully implement them or leave them empty.
+
+The way is that we come and separate the interfaces, this can be recognized through class concepts.
